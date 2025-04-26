@@ -1,0 +1,32 @@
+<h1>Directors Dashboard</h1>
+
+<select id="relationshipFilter">
+  <option value="">-- Filter by Relationship Status --</option>
+  <option value="First-time">First-time</option>
+  <option value="Returning">Returning</option>
+</select>
+
+<table border="1" id="directorsTable">
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Nationality</th>
+      <th>Film Count</th>
+      <th>Relationship Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @directors.each do |director| %>
+      <tr>
+        <td><%= director.name %></td>
+        <td><%= director.nationality %></td>
+        <td><%= director.film_count %></td>
+        <td><%= director.relationship_status %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to "Back to Home", root_path %>

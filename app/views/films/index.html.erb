@@ -1,0 +1,28 @@
+<h1>Films Dashboard</h1>
+
+<input type="text" id="filmSearch" placeholder="Search films..." />
+
+<table border="1" id="filmsTable">
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Screening Date</th>
+      <th>Venue</th>
+      <th>Status</th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @films.each do |film| %>
+      <tr>
+        <td><%= film.title %></td>
+        <td><%= film.screening_date %></td>
+        <td><%= film.venue %></td>
+        <td><%= film.status %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to "Back to Home", root_path %>

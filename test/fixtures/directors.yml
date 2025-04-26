@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  nationality: MyString
+  film_count: 1
+  relationship_status: MyString
+
+two:
+  name: MyString
+  nationality: MyString
+  film_count: 1
+  relationship_status: MyString
