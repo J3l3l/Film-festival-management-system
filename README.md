@@ -2,7 +2,7 @@
 
 ## Overview
 
-This web application was built using Ruby on Rails and PostgreSQL to manage a film festival's films and directors. It includes two dashboards — one for films and one for directors — and follows all project specifications, including clean navigation, real-time client-side interactivity with JavaScript, and adherence to Rails best practices.
+This web application was built using Ruby on Rails and PostgreSQL to manage a film festival's films and directors. It includes two dashboards, one for films and one for directors, and follows all project specifications, including clean navigation, real-time client-side interactivity with JavaScript, and adherence to Rails best practices.
 
 ---
 
